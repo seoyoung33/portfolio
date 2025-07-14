@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome Seoyoung's Portfolio</title>
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 사용자파일 -->
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/scroll.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Ability</a>
+            <a href="#">Web Design</a>
+            <a href="#">etc Design</a>
+        </nav>
+    </header>
+    <div class="swiper" id="wrap">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide home">
+                <h1>portfolio</h1>
+                <p>portfolio</p>
+                <div class="line">
+                    <span>Park Seoyoung</span>
+                    <span>2025.08</span>
+                </div>
+                <div class="design_wrap">
+                    <p class="visual">visual designer</p>
+                    <p class="web">web designer</p>
+                    <p class="pub">web publisher</p>
+                </div>
+                <div class="swiper" id="skill_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide photoshop">photoshop</div>
+                        <div class="swiper-slide illustrator">illustrator</div>
+                        <div class="swiper-slide indesign">indesign</div>
+                        <div class="swiper-slide figma">figma</div>
+                        <div class="swiper-slide html5">html5</div>
+                        <div class="swiper-slide CSS3">CSS3</div>
+                        <div class="swiper-slide javascript">javascript</div>
+                        <div class="swiper-slide plugin">plugin</div>
+                        <div class="swiper-slide jquery">jquery</div>
+                        <div class="swiper-slide react">react</div>
+                        <div class="swiper-slide git & gitHub">git & gitHub</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide profile"></div>
+            <div class="swiper-slide ability"></div>
+            <div class="swiper-slide web_design"></div>
+            <div class="swiper-slide etc_design"></div>
+        </div>
+    </div>
 </body>
 </html>
