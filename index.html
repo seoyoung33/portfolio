@@ -22,34 +22,33 @@
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Ability</a>
-            <a href="#">Web Design</a>
-            <a href="#">etc Design</a>
+            <a href="#home" id="nav_home">Home</a>
+            <a href="#profile" id="nav_profile">Profile</a>
+            <a href="#ability" id="nav_ability">Ability</a>
+            <a href="#web_design" id="nav_web_design">Web Design</a>
+            <a href="#etc_design" id="nav_etc_design">etc Design</a>
         </nav>
     </header>
     <div class="swiper" id="wrap">
         <div class="swiper-wrapper">
             <!-- =========================================home -->
-            <div class="swiper-slide home">
+            <div class="swiper-slide" id="home">
                 <div class="left">
                     <h1>portfolio</h1>
-                    <p>portfolio</p>
-                </div>
-                <div class="line">
-                    <span>Park Seoyoung</span>
-                    <span>2025.08</span>
                 </div>
                 <div class="design_wrap">
-                    <p class="visual">visual designer</p>
-                    <p class="web">web designer</p>
-                    <p class="pub">web publisher</p>
+                    <h2><em>안녕하세요</em>, 저는</h2>
+                    <div class="designer">
+                        <p class="visual">visual designer</p>
+                        <p class="web">web designer</p>
+                        <p class="pub">web publisher</p>
+                    </div>
+                    <h2><em>박서영</em>입니다.</h2>
                 </div>
                 <div class="skill_slide"></div>
             </div>
             <!-- =========================================profile -->
-            <div class="swiper-slide profile">
+            <div class="swiper-slide" id="profile">
                 <div class="container">
                     <div class="left">
                         <div class="title">
@@ -128,6 +127,8 @@
                                 <img src="./images/skill/indesign.png" alt="인디자인">
                                 <img src="./images/skill/figma.png" alt="피그마">
                                 <img src="./images/skill/git.png" alt="깃허브">
+                            </dd>
+                            <dd>
                                 <img src="./images/skill/html5.png" alt="HTML5">
                                 <img src="./images/skill/css3.png" alt="CSS3">
                                 <img src="./images/skill/javascript.png" alt="자바스크립트">
@@ -139,67 +140,36 @@
                 </div>
             </div>
             <!-- =========================================ability -->
-            <div class="swiper-slide ability">
+            <div class="swiper-slide" id="ability">
                 <div class="title">
                     <h1>i can do it!</h1>
                     <h2>저는 <em>이런 디자인</em>을 할 수 있어요!</h2>
                 </div>
-                <div class="container">
-                    <div class="swiper" id="ability_swiper">
-                        <!--필수-->
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide uiux">
-                                <div class="thumnail"><img src="./images/ability/uiux_p.jpg" alt=""></div>
-                                <dl class="contents">
-                                    <dt></dt>
-                                    <dd></dd>
-                                    <dt></dt>
-                                    <dd>
-                                        <img src="./images/ability/webdesign.png" alt="웹디자인">
-                                        <em>Web Design</em>
-                                    </dd>
-                                    
-                                </dl>
-                            </div>
-                            <div class="swiper-slide slide2">slide2</div>
-                            <div class="swiper-slide slide3">slide3</div>
-                        </div>
-                    </div>
-                    <!-- 필요 시 사용(선택) -->
-                    <div class="swiper-button-prev"></div><!-- 포지션absolute가 내장되어 있음. -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-scrollbar"></div>
-                </div>
+                <ul class="ability_wrap">
+                    <li>
+                        <img src="./images/ability/uiux.png" alt="UXUI디자인">
+                        <em>UXUI Design</em>
+                        <span>클라이언트의 니즈를 이해하고, 사용자의 관점에서 편리하고 직관적인 인터페이스를 구상하고 설계할 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <img src="./images/ability/webdesign.png" alt="웹디자인">
+                        <em>Web Design</em>
+                        <span>브라우저 환경과 디바이스 특성을 고려하여 크로스 브라우징에 최적화된, 완성도 높은 웹디자인을 제작할 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <img src="./images/ability/responsive.png" alt="반응형과 적응형">
+                        <em>Responsive</em>
+                        <span>반응형 레이아웃과 적응형 구조 모두 구현 가능하며, 사용자가 어떤 기기로 접속하더라도 일관된 경험을 제공할 수 있습니다.</span>
+                    </li>
+                    <li>
+                        <img src="./images/ability/visualdesign.png" alt="시각디자인">
+                        <em>Visual Design</em>
+                        <span>편집디자인과 콘텐츠 제작 경험을 바탕으로, 다양한 매체에 어울리는 시각디자인을 구현할 수 있습니다.</span>
+                    </li>
+                </ul>
             </div>
-                    <!-- <div class="title">
-                        <h1>i can do it!</h1>
-                        <h2>저는 <em>이런 디자인</em>을 할 수 있어요!</h2>
-                    </div>
-                    <ul class="ability_wrap">
-                        <li>
-                            <img src="./images/ability/uiux.png" alt="UXUI디자인">
-                            <em>UXUI Design</em>
-                            <span>클라이언트의 니즈를 이해하고, 사용자의 관점에서 편리하고 직관적인 인터페이스를 구상하고 설계할 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <img src="./images/ability/webdesign.png" alt="웹디자인">
-                            <em>Web Design</em>
-                            <span>브라우저 환경과 디바이스 특성을 고려하여 크로스 브라우징에 최적화된, 완성도 높은 웹디자인을 제작할 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <img src="./images/ability/responsive.png" alt="반응형과 적응형">
-                            <em>Responsive</em>
-                            <span>반응형 레이아웃과 적응형 구조 모두 구현 가능하며, 사용자가 어떤 기기로 접속하더라도 일관된 경험을 제공할 수 있습니다.</span>
-                        </li>
-                        <li>
-                            <img src="./images/ability/visualdesign.png" alt="시각디자인">
-                            <em>Visual Design</em>
-                            <span>편집디자인과 콘텐츠 제작 경험을 바탕으로, 다양한 매체에 어울리는 시각디자인을 구현할 수 있습니다.</span>
-                        </li>
-                    </ul>
-                </div> -->
             <!-- =========================================web_design -->
-            <div class="swiper-slide web_design">
+            <div class="swiper-slide" id="web_design">
                 <div class="title">
                     <h1>web design</h1>
                     <h2>저의 <em>웹디자인 프로젝트</em>들을 소개합니다!</h2>
@@ -209,7 +179,7 @@
                         <!--필수-->
                         <div class="swiper-wrapper">
                             <div class="swiper-slide underarmour">
-                                <div class="thumnail"><img src="./images/web_design/underarmour.jpg" alt="언더아머"></div>
+                                <div class="thumnail"><img src="./images/underarmour.jpg" alt="언더아머"></div>
                                 <ul class="contents">
                                     <li>Project 01. 언더아머 <em>Underarmour</em></li>
                                     <li>
@@ -224,29 +194,27 @@
                                     <li>
                                         <a href="#" target="_blank">기획서보기</a>
                                         <a href="https://www.figma.com/proto/MZMihwcQuGQe7bTWu3k5Ks/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=68-327&p=f&t=2xFS4rg6HPxz11ka-1&scaling=min-zoom&content-scaling=fixed&page-id=68%3A114" target="_blank">피그마보기</a>
-                                        <a href="https://seoyoung33.github.io/project_underarmour/" target="_blank">프로토타입</a><!-- 재생눌러서 나오는 주소공유 -->
+                                        <a href="https://seoyoung33.github.io/project_underarmour/" target="_blank">프로토타입</a>
                                         <a href="https://www.underarmour.co.kr/ko-kr/" target="_blank">Before</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="swiper-slide slide2">
-                                <div class="thumnail"><img src="./images/web_design/underarmour.jpg" alt="언더아머"></div>
+                                <div class="thumnail"><img src="./images/daiso.jpg" alt="언더아머"></div>
                                 <ul class="contents">
-                                    <li>Project 01. 언더아머 <em>Underarmour</em></li>
+                                    <li>Project 02. 다이소랜딩페이지 <em>Daiso</em></li>
                                     <li>
                                         <ul>
-                                            <li>제작페이지 : 메인페이지(index)</li>
+                                            <li>제작페이지 : 랜딩페이지(index)</li>
                                             <li>제작기간 : 2주</li>
-                                            <li>반응형웹(1920-1250-835-320)</li>
-                                            <li>사용 프로그램 : Figma, Photoshop, illustrator, HTML5, CSS3, JavaScript, gitHub</li>
+                                            <li>사용 프로그램 : Figma, Photoshop, illustrator, HTML5, CSS3, gitHub</li>
                                             <li>디자인 기여도 : 100%</li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#" target="_blank">기획서보기</a>
-                                        <a href="https://www.figma.com/proto/MZMihwcQuGQe7bTWu3k5Ks/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=68-327&p=f&t=2xFS4rg6HPxz11ka-1&scaling=min-zoom&content-scaling=fixed&page-id=68%3A114" target="_blank">피그마보기</a>
-                                        <a href="https://seoyoung33.github.io/project_underarmour/" target="_blank">프로토타입</a><!-- 재생눌러서 나오는 주소공유 -->
-                                        <a href="https://www.underarmour.co.kr/ko-kr/" target="_blank">원본 사이트 보기(Before)</a>
+                                        <a href="https://www.figma.com/proto/9QROnbAEn4gNfrfgpjZg2W/%EB%B0%95%EC%84%9C%EC%98%81_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%8B%A4%EC%9D%B4%EC%86%8C-?node-id=86-532&t=BXdwBMQFDWAVdrSd-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1" target="_blank">피그마보기</a>
+                                        <a href="https://seoyoung33.github.io/project_landing_daiso/" target="_blank">프로토타입</a>
                                     </li>
                                 </ul>
                             </div>
@@ -266,7 +234,7 @@
                                     <li>
                                         <a href="#" target="_blank">기획서보기</a>
                                         <a href="https://www.figma.com/proto/MZMihwcQuGQe7bTWu3k5Ks/%EC%96%B8%EB%8D%94%EC%95%84%EB%A8%B8-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=68-327&p=f&t=2xFS4rg6HPxz11ka-1&scaling=min-zoom&content-scaling=fixed&page-id=68%3A114" target="_blank">피그마보기</a>
-                                        <a href="https://seoyoung33.github.io/project_underarmour/" target="_blank">프로토타입</a><!-- 재생눌러서 나오는 주소공유 -->
+                                        <a href="https://seoyoung33.github.io/project_underarmour/" target="_blank">프로토타입</a>
                                         <a href="https://www.underarmour.co.kr/ko-kr/" target="_blank">원본 사이트 보기(Before)</a>
                                     </li>
                                 </ul>
@@ -274,26 +242,70 @@
                         </div>
                     </div>
                     <!-- 필요 시 사용(선택) -->
-                    <div class="swiper-button-prev"></div><!-- 포지션absolute가 내장되어 있음. -->
+                    <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-scrollbar"></div>
                 </div>
             </div>
-            <div class="swiper-slide etc_design">
+            <!-- =========================================etc_design -->
+            <div class="swiper-slide" id="etc_design">
                 <div class="title">
                     <h1>etc design</h1>
                     <h2>저의 <em>디자인 작품</em>들을 소개합니다!</h2>
                 </div>
                 <div class="container">
-                    <div class="swiper" id="etc_design_swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide slide1"><img src="./images/icon/birth.png" alt=""></div>
-                            <div class="swiper-slide slide2"><img src="./images/icon/birth.png" alt=""></div>
-                            <div class="swiper-slide slide3"><img src="./images/icon/birth.png" alt=""></div>
-                            <div class="swiper-slide slide4"><img src="./images/icon/birth.png" alt=""></div>
+                    <div class="ect_left">
+                        <div class="swiper" id="banner_swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1"><img src="./images/projects/samick_logo.png" alt=""></div>
+                                <div class="swiper-slide slide2"><img src="./images/projects/samick_logo2.png" alt=""></div>
+                                <div class="swiper-slide slide3"><img src="./images/projects/samick_logo.png" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/samick_logo2.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper" id="etc_design_swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1"><img src="./images/projects/ad.jpg" alt=""></div>
+                                <div class="swiper-slide slide2"><img src="./images/projects/guam_poster.jpg" alt=""></div>
+                                <div class="swiper-slide slide3"><img src="./images/projects/guam1.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ect_right">
+                        <div class="swiper" id="detail_swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide2"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide3"><img src="./images/projects/abocado.jpg" alt=""></div>
+                                <div class="swiper-slide slide4"><img src="./images/projects/abocado.jpg" alt=""></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- =========================================thank you -->
+            <div class="swiper-slide thank_you">
+                <div class="top">
+                    <h1>thank you!</h1>
+                    <h2>제 <em>포트폴리오</em>에 와주셔서 감사합니다.</h2>
+                </div>
+                <ul class="contact">
+                    <li>
+                        <img src="./images/icon/mail.png" alt="메일">bsy4357@gmail.com
+                    </li>
+                    <li>
+                        <img src="./images/icon/kakao.png" alt="카카오">tjdud0303
+                    </li>
+                    <li>
+                        <img src="./images/icon/qr.png" alt="카카오친구추가 QR code">
+                        <em>(카카오톡 친구추가)</em>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
