@@ -184,18 +184,18 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #web_design .title h2 em {font-weight:700; color:#123458;}
 #wrap .swiper-wrapper #web_design .container {
     width:1680px; position:relative; padding:50px 100px; background-color:#fff;
-    border-radius:50px;
+    border-radius:50px; overflow:hidden;
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper {}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper {}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide {
     display:flex; flex-flow:row nowrap;
 }
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail {width:800px;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail {width:50%;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail img {width:100%;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide3 .thumnail img {width:80%;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents {
-    display:flex; flex-flow:column nowrap; gap:80px;
+    display:flex; flex-flow:column nowrap; gap:60px;
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type {font-weight:700; font-size:1.563rem;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type em {font-weight:700; font-size:1.563rem; color:#555;}
@@ -219,11 +219,11 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #etc_design .title h2 {line-height:1.2;}
 #wrap .swiper-wrapper #etc_design .title h2 em {font-weight:700; color:#123458;}
 #wrap .swiper-wrapper #etc_design .title .visual a {
-    font-size:1.25rem; color:#123458; text-decoration:underline;
+    font-size:1rem; font-weight:500; color:#123458; text-decoration:underline;
 }
 #wrap .swiper-wrapper #etc_design .container {
     width:1680px; margin:50px auto 0; padding:50px;
-    display:flex; flex-flow:row nowrap; gap:50px; background-color:#fff;
+    display:flex; flex-flow:row nowrap; gap:50px; background-color:#fff; border-radius:50px;
 }
 #wrap .swiper-wrapper #etc_design .container .ect_left {
     display:flex; flex-flow:column nowrap; justify-content:space-between;
@@ -236,7 +236,7 @@ header nav a:hover::after {transform:scaleX(1);}
 }
 #wrap .swiper-wrapper #etc_design .container .ect_left #banner_swiper .swiper-slide {cursor:pointer;}
 #wrap .swiper-wrapper #etc_design .container .ect_left #banner_swiper .swiper-slide:hover {transform:rotate(5deg);}
-#wrap .swiper-wrapper #etc_design .container .ect_left #banner_swiper .swiper-slide img {width:100%;}
+#wrap .swiper-wrapper #etc_design .container .ect_left #banner_swiper .swiper-slide img {width:100%; margin:auto 0;}
 #wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper {
     width:1200px; height:300px;
 }

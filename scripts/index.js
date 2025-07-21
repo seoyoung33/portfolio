@@ -53,7 +53,7 @@ const etc_design = new Swiper('#etc_design_swiper',{
     slidesPerView:3,
     spaceBetween:10,
     autoplay:{delay:0,},
-    speed:10000,
+    speed:9500,
     loop:true,
 });
 
