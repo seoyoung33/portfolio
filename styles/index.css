@@ -192,13 +192,10 @@ header nav a:hover::after {transform:scaleX(1);}
     display:flex; flex-flow:row nowrap;
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail {width:800px;}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide3 .thumnail {
-    width:800px;
-}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail img {width:100%;}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide3 .thumnail img {width:60%;margin:0 130px; border:1px solid #ccc;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide3 .thumnail img {width:80%;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents {
-    display:flex; flex-flow:column nowrap; justify-content:space-between;
+    display:flex; flex-flow:column nowrap; gap:80px;
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type {font-weight:700; font-size:1.563rem;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type em {font-weight:700; font-size:1.563rem; color:#555;}
