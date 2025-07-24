@@ -21,15 +21,6 @@ const wrap = new Swiper('#wrap',{
     }
 })
 
-/* ability 슬라이드 */
-const ability = new Swiper('#ability_swiper',{
-    scrollbar:{el:'#ability_swiper~.swiper-scrollbar'},
-    navigation:{
-        nextEl:'#ability_swiper~.swiper-button-next',
-        prevEl:'#ability_swiper~.swiper-button-prev',
-    }
-})
-
 /* 프로젝트 슬라이드 */
 const project1 = new Swiper('#web_design_swiper',{
     scrollbar:{el:'#web_design_swiper~.swiper-scrollbar'},
