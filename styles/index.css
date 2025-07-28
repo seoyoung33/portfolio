@@ -184,7 +184,7 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #web_design .title h2 em {font-weight:700; color:#123458;}
 #wrap .swiper-wrapper #web_design .container {
     width:1680px; position:relative; padding:50px 100px; background-color:#fff;
-    border-radius:50px; overflow:hidden;
+    border-radius:50px; overflow:hidden; height:500px;
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper {}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper {}
@@ -199,7 +199,8 @@ header nav a:hover::after {transform:scaleX(1);}
 }
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type {font-weight:700; font-size:1.563rem;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type em {font-weight:700; font-size:1.563rem; color:#555;}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul {width:652px;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:last-of-type {height:46px;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul {/* width:652px; */}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul li {width:100%; padding:10px 0; border-bottom:1px solid #ccc;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a {padding:10px 15px; border-radius:5px; margin-right:10px;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(1) {background-color:#F1EFEC;}
