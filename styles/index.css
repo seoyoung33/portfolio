@@ -191,9 +191,11 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide {
     display:flex; flex-flow:row nowrap;
 }
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail {width:50%;}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail img {width:100%;}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide3 .thumnail img {width:80%;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail {
+    width:50%; display:flex; flex-flow:column nowrap; justify-content:center;
+}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .slide1 .thumnail img {width:100%;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .thumnail img {width:80%;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents {
     display:flex; flex-flow:column nowrap; gap:60px;
 }
@@ -201,7 +203,7 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:first-of-type em {font-weight:700; font-size:1.563rem; color:#555;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li:last-of-type {}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul {}
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul li {width:100%; padding:10px 0; border-bottom:1px solid #ccc;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li ul li {width:580px; padding:10px 0; border-bottom:1px solid #ccc;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a {
     padding:10px 15px; border-radius:5px; margin-right:10px; display:inline-block;
 }
