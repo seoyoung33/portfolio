@@ -207,7 +207,7 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a {
     padding:10px 15px; border-radius:5px; margin-right:10px; display:inline-block;
 }
-#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(1) {background-color:#F1EFEC;}
+#wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(1) {background-color:#F1EFEC; border:1px solid #D4B9BE;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(2) {background-color:#D4C9BE;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(3) {background-color:#123458; color:#fff;}
 #wrap .swiper-wrapper #web_design .container #web_design_swiper .swiper-wrapper .swiper-slide .contents > li a:nth-of-type(4) {
