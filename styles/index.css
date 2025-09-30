@@ -62,8 +62,8 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #home .skill_slide {
     position:absolute; left:0; bottom:0;
     background:#123458 url(../images/banner.png) 0 center repeat;
-    opacity:0.5;
-    height:40px; width:100%;
+    opacity:0.8;
+    height:35px; width:100%;
     animation:linear 15s linear infinite;
 }
 #wrap .swiper-wrapper #home .skill_slide:hover {animation-play-state:paused;}
