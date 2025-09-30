@@ -1,4 +1,5 @@
 @media screen and (max-width:1249px){
+    /* =========== home */
     header {padding:0 50px; height:50px;}
     header nav {gap:30px;}
     @keyframes lineExpand {
@@ -14,6 +15,13 @@
     header nav a {line-height:50px; font-size:0.875rem;}
     #wrap .swiper-wrapper #home .left h1 {font-size:5rem;}
     #wrap .swiper-wrapper #home .design_wrap h2 {font-size:1.25rem;}
+
+    /* =========== thank you */
+    #wrap .swiper-wrapper #thank_you .title h1 {font-size:5rem;}
+    #wrap .swiper-wrapper #thank_you .title h1::after {width:550px;}
+    #wrap .swiper-wrapper #thank_you .title h2 {font-size:1.25rem;}
+    #wrap .swiper-wrapper #thank_you .contact li {font-size:0.875rem;}
+    #wrap .swiper-wrapper #thank_you .contact li:last-of-type img {width:60px;}
 }
 
 /* ==================================== */
