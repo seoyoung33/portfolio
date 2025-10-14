@@ -24,7 +24,7 @@ header nav a:hover::after {transform:scaleX(1);}
     display:flex; flex-flow:column nowrap; gap:20px;
     justify-content:center; align-items:center;
     max-width:1920px; height:100vh;
-    background:url(../images/background.jpg) center;
+    background:url(../images/background.jpg) center / cover;
 }
 #wrap .swiper-wrapper #home .left {
     display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;
@@ -275,7 +275,7 @@ header nav a:hover::after {transform:scaleX(1);}
     display:flex; flex-flow:column nowrap; gap:20px;
     justify-content:center; align-items:center;
     max-width:1920px; height:100vh;
-    background:url(../images/background.jpg) center;
+    background:url(../images/background.jpg) center / cover;
 }
 #wrap .swiper-wrapper #thank_you .title {
     display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;
