@@ -20,10 +20,19 @@
     #wrap .swiper-wrapper #profile .container {flex-flow:column; align-items:start;}
     #wrap .swiper-wrapper #profile .container .left {display:flex; flex-flow:row-reverse;}
     #wrap .swiper-wrapper #profile .container .left .title {margin-left:50px;}
+    #wrap .swiper-wrapper #profile .container .left .title * {font-size:1.5rem;}
     #wrap .swiper-wrapper #profile .container .left .me {position:relative;}
-    #wrap .swiper-wrapper #profile .container .left .me > span {position:absolute; left:250px; bottom:0;}
-    #wrap .swiper-wrapper #profile .container .middle {margin-top:120px; width:437px; gap:50px;}
-    #wrap .swiper-wrapper #profile .container .right {}
+    #wrap .swiper-wrapper #profile .container .left .me > img {width:150px;}
+    #wrap .swiper-wrapper #profile .container .left .me > span {position:absolute; left:200px; bottom:0; gap:5px;}
+    #wrap .swiper-wrapper #profile .container .left .me > span * {font-size:0.75rem;}
+    #wrap .swiper-wrapper #profile .container .left .me > span img {width:15px;}
+    #wrap .swiper-wrapper #profile .container .middle {position:relative; margin-top:50px; width:437px; gap:50px;}
+    #wrap .swiper-wrapper #profile .container .middle .career {position:absolute; left:487px;}
+    #wrap .swiper-wrapper #profile .container .right {position:relative; margin-top:50px; width:437px;}
+    #wrap .swiper-wrapper #profile .container .right .skill {position:absolute; left:487px;}
+    #wrap .swiper-wrapper #profile .container .detail dt::after {margin-left:0;}
+    #wrap .swiper-wrapper #profile .container .detail dt {font-size:1rem;}
+    #wrap .swiper-wrapper #profile .container .contact dd:last-of-type img {width:60px;}
 
     /* =========== thank you */
     #wrap .swiper-wrapper #thank_you .title h1 {font-size:5rem;}
