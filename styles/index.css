@@ -237,7 +237,7 @@ header nav a:hover::after {transform:scaleX(1);}
     display:flex; flex-flow:row nowrap; gap:50px; background-color:#fff; border-radius:50px;
 }
 #wrap .swiper-wrapper #etc_design .container .ect_left {
-    display:flex; flex-flow:column nowrap; justify-content:space-between;
+    width:70%; display:flex; flex-flow:column nowrap; justify-content:space-between; overflow:hidden;
 }
 #wrap .swiper-wrapper #etc_design .container .ect_left #banner_swiper {
     width:1200px; height:150px;
@@ -254,10 +254,11 @@ header nav a:hover::after {transform:scaleX(1);}
 #wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper .swiper-wrapper {
     transition-timing-function:linear;
 }
+#wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper .swiper-wrapper .slide13 {border:1px solid #fefefe;}
 #wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper .swiper-slide {cursor:pointer;}
 #wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper .swiper-slide:hover {transform:rotate(5deg);}
 #wrap .swiper-wrapper #etc_design .container .ect_left #etc_design_swiper .swiper-slide img {width:100%;}
-#wrap .swiper-wrapper #etc_design .container .ect_right {width:100%; height:100%;}
+#wrap .swiper-wrapper #etc_design .container .ect_right {width:30%; height:100%;}
 #wrap .swiper-wrapper #etc_design .container .ect_right #detail_swiper {
     height:500px; width:100%;
 }
@@ -265,10 +266,11 @@ header nav a:hover::after {transform:scaleX(1);}
     transition-timing-function:linear;
 }
 #wrap .swiper-wrapper #etc_design .container .ect_right #detail_swiper .swiper-slide {
-    width:300px; cursor:pointer; overflow:hidden; margin:0 auto;
+    width:100%; cursor:pointer; overflow:hidden; margin:0 auto;
 }
 #wrap .swiper-wrapper #etc_design .container .ect_right #detail_swiper .swiper-slide:hover {transform:scale(1.1);}
 #wrap .swiper-wrapper #etc_design .container .ect_right #detail_swiper .swiper-slide img {width:100%;}
+
 /* <!-- =========================================thank you --> */
 #wrap .swiper-wrapper #thank_you {
     display:flex; flex-flow:column nowrap; gap:20px;
